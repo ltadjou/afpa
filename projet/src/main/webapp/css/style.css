@@ -1,0 +1,240 @@
+@charset "ISO-8859-1";
+
+#sect1{
+float: left;
+width: 150px;
+border: 1px solid black;
+}
+
+#inputDept{
+	width:250px;
+}
+
+#body {
+color:black;
+background-color:white;
+background-image:url(../image/image_de_fond.jpg);
+background-repeat:no-repeat;
+}
+
+#error{
+	color: red;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+#formCon{
+	text-align: center;
+}
+
+.requis{
+	color: red;
+}
+
+#cadre{
+	border: 1px grey solid; 
+	padding: 10px;
+	padding-bottom:25px;
+	margin-left:280px;
+	margin-right: 280px;
+}
+
+#tab-0{
+	text-transform:uppercase;
+    text-decoration:none; 
+    float: left;
+}
+
+#acto{
+	border: 1px grey solid; 
+	 width: 1080px; 
+    height: 50px; 
+    margin-left:25px;
+    padding-bottom: 10px; 
+}
+
+#tabs{  
+    width:300px;  
+    position:relative; 
+    display: table;
+    color:#333; 
+	border: 1px grey solid;
+	position: inherit;
+	margin-left: 380px;
+}   
+
+#tabs li{   
+    width:300px;
+    display: table-cell; 
+}  
+
+#tabs li a{  
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .4);
+    display: inline-table;
+    text-decoration:none; 
+    width: 200px; 
+    height: 20px; 
+    padding:5px;   
+    margin-right:2px;  
+     float: right; 
+} 
+
+ul li a:hover{
+    color: green;
+}
+
+ul li a:active, focus{
+	color: RED;
+}
+
+#menuFooter {
+    margin-left:25px;
+	width:1030px;  
+    position:relative; 
+    display: table;
+    color:#333; 
+	border: 1px grey solid;  
+		position: inherit;
+}
+
+#menuFooter li{   
+    width:300px;
+    display: table-cell; 
+}  
+
+#menuFooter li a{  
+    display: inline-table;
+    text-decoration:none; 
+    width: 200px; 
+    height: 20px; 
+    padding:5px;   
+    margin-right:2px;  
+     float: right; 
+} 
+
+#submit{
+	display:block; 
+    margin:auto;
+    width: 200px; 
+    height: 30px; 
+    border: 1px solid greytext; 
+    text-align: center; 
+    background-color: graytext;
+}
+
+.photo{
+    filter: brightness(110%) contrast(90%);
+    border: 2px white solid;
+    margin: 5px;
+    width: 18px;
+    height: 18px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 2px darkgreen;
+    background-image: linear-gradient(to bottom right, white, lightgray);
+    vertical-align: middle;
+}
+
+#sect1{
+	border: 1.5px grey solid;
+	width: 250px;
+    height: 1000px;
+    margin-left: 25px;
+}
+
+#f1{
+	padding:20px;
+	border: 3px grey solid;
+	margin-left:100px;
+	margin-right: 100px;
+}
+
+#f12{
+	padding:5px;
+	border: 3px grey solid;
+	margin-left:25px;
+	margin-right: 25px;
+}
+
+
+h1.titreprofil
+{
+	position: absolute;
+	left: 50px;
+	top: 10px;
+}
+
+.nomprofil
+{
+	font-size: 70px;
+	color: teal;
+	text-shadow: 5px 5px 2px black;
+
+	
+}
+
+.acteurprofil
+{
+	font-size: 40px;
+	color: blue;
+	text-shadow: 2px 2px 2px blue;
+}
+.photoprofil
+{
+	max-width: 200px;
+	 width: 30%;
+	 float: left;
+	 margin-right: 20px;
+}
+
+.connexionprofil
+{
+	position: absolute;
+	right: 50px;
+	top: 10px;
+}
+
+.presprofil
+{
+	position: relative;
+	left: 400px;
+	bottom: 50px;
+}
+
+.presprofillabel
+{
+	border: 1px solid teal;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.offreprofil
+{
+	position: relative;
+	left:500px;
+	bottom: 20px;
+}
+
+.offreprofillabel
+{
+	border: 1px solid teal;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.infosprofil
+{
+	
+}
+
+.dropdown-menu {
+  position:relative;
+  width:100%;
+  top: 0px !important;
+    left: 0px !important;
+}
+
+.typeahead { z-index: 1051; }
